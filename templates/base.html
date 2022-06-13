@@ -1,0 +1,39 @@
+{% load static %}
+{% static "images" as baseUrl %}
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optum</title>
+</head>
+<body >
+    <header>
+    <h2>
+    <img Align="bottom" src="{% static 'images/optum.png' %}" >
+     Network and Security Internet Services(NSIS) - Metrics Portal</h2>
+<hr color="orange">
+<h3 text-color="black">
+    Network Services Report
+</h3>
+<div class="g">
+    <a href="{%url 'about'%}">
+<div class="v">
+    <h4 > Incident Management </h4>
+</div>
+</a>
+<a href="{%url 'about2'%}">
+    <div class="v">
+        <h4> Problem Management </h4>
+    </div>
+    </a>
+    </div>
+    </header>
+    <div class="footer">  
+        <hr>
+        <p>© Optum 2022 , Inc. All rights reserved</p>   
+        </div>
+</body>
+</html>

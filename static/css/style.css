@@ -1,0 +1,60 @@
+
+body{
+    background-color: cornsilk;
+}
+img{
+    width : 10% ;
+}
+h2{
+    margin: 10px ;
+    color: orange;
+}
+h4{
+    color: black;
+}
+
+hr{
+    margin-top: 10px;
+}
+
+h1{
+    color : orange;
+}
+.b {
+    background-color: rgb(240, 197, 119);
+    display: inline-block;
+    border: 1px solid black;
+    padding: .5rem .5rem;
+    margin-right: 30px;
+  }
+
+.g {
+    width: 70% ;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    margin-top: 20px;
+  }
+
+  .v {
+    background-color: lightgray;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 1rem 1rem;
+    margin-right: 30px;
+  }
+
+  div.v:hover {
+    background-color : palegoldenrod;
+}
+div.v:visited {
+    color: blue;
+ }
+  
+   .footer {  
+    position: fixed;  
+    left: 10px;  
+    bottom: 5px;  
+    right: 10px;   
+    width: 95%;    
+    text-align: center;  
+    }
